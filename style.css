@@ -1,10 +1,19 @@
 .header {
-  font-size: 45px;
+  display: flex;
+  width: 80%;
+  font-size: 34px;
   color: blue;
+  display: inline-block;
+}
+a{
+  color: green;
+  text-decoration: none;
 }
 
 .mine__content {
   color: red;
+  font-size: 34px;
+
 }
 
 .mine__paragraph1 {
