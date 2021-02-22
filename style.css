@@ -1,21 +1,20 @@
 .header {
-  display: flex;
+  margin: auto;
   width: 80%;
-  font-size: 34px;
-  color: blue;
+  display: flex;
+}
+
+.logo,
+.menu {
   display: inline-block;
-}
-a{
-  color: green;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.mine__content {
-  color: red;
-  font-size: 34px;
-
+.logo {
+  margin-right: 63%;
 }
 
-.mine__paragraph1 {
-  color: yellow;
+.menu__item {
+  padding: 0 13px;
 }
