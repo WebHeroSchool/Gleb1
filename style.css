@@ -1,12 +1,20 @@
 .header {
-  font-size: 45px;
-  color: blue;
+  margin: auto;
+  width: 80%;
+  display: flex;
 }
 
-.mine__content {
-  color: red;
+.logo,
+.menu {
+  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
-.mine__paragraph1 {
-  color: yellow;
+.logo {
+  margin-right: 63%;
+}
+
+.menu__item {
+  padding: 0 13px;
 }
