@@ -41,7 +41,7 @@
 
 .menu__item {
   position: relative;
-  right: 222px;
+  margin-right: 50px;
   padding: 0 13px;
   font: 500 14px/21px Roboto, arial, helvetica, sans-serif;
   font-size: 14px;
