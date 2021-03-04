@@ -1,7 +1,12 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
 }
 
 .logo,
@@ -12,7 +17,6 @@
 }
 
 .logo {
-  left: 219px;
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
@@ -42,7 +46,6 @@
 
 .menu__item {
   position: relative;
-  margin-right: 50px;
   padding: 0 13px;
   font: 500 14px/21px Roboto, arial, helvetica, sans-serif;
   font-size: 14px;
@@ -93,18 +96,17 @@
 }
 
 .main {
-  padding: 0 75% 195px 0;
+  padding-right: 63%;
   background: top right no-repeat url(img/mine-img.svg);
-}
+  }
 
 .main__title {
-  margin: 0 0 40px 0;
-  font: bold 50px/65px serif, arial, helvetica, sans-serif;
+  font: bold 66px/80px serif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 22px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
