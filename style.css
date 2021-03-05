@@ -1,7 +1,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 220px;
 }
 
 .wrapper {
@@ -46,11 +45,15 @@
 
 .menu__item {
   position: relative;
-  padding: 0 13px;
+  margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000000;
   text-decoration: none;
   transition: opasity .5s;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__item:after {
@@ -95,9 +98,9 @@
 }
 
 .main {
-  padding: 0 63% 150px 0;
+  padding: 0 63% 300px 0;
   background: top right no-repeat url(img/main-img.svg);
-  background-size: 710px 597px;
+  background-size: 770px 657px;
 }
 
 .main__title {
@@ -115,7 +118,7 @@
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 21px;
+  padding: 20px 30px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
