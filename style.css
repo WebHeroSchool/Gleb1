@@ -115,7 +115,6 @@
 }
 
 .main__subtitle {
-  padding-right: 24%;
   margin: 0 0 41px 0;
   font: 22px/21px Roboto, arial, helvetica, sans-serif;
 }
@@ -179,11 +178,6 @@
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
  }
 
-.main__title,
-.main__subtitle {
-  border: dashed 1px red;
- }
-
 #menu__toggle {
   opacity: 0;
  }
@@ -193,9 +187,10 @@
   display: flex;
   position: relative;
   justify-content: space-between;
+  text-align: right;
   top: 50%;
   margin-top: -0.625em;
-  left: 24px;
+  margin-left: 260px;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -286,4 +281,45 @@
 .menu__item {
   transition-duration: .25s;
  }
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .menu__item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: left;
+  }
+
+  .main {
+    background-size: 60%;
+  }
+
+  .main__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+  }
+
+  .main__button {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
 }
