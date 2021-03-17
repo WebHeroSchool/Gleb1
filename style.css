@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 124px;
+  margin-bottom: 150px;
 }
 
 .wrapper {
@@ -23,7 +23,7 @@
 
 .logo {
   position: relative;
-  padding: 40px 0;
+  padding: 20px 0;
   padding-left: 44px;
   font: 700 24px/32px serif, arial, helvetica, sans-serif;
 }
@@ -153,7 +153,6 @@
 
 .header {
   margin-bottom: 32px;
-  border: dashed 1px red;
  }
 
 .main {
