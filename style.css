@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 170px;
 }
 
 .wrapper {
@@ -152,7 +152,8 @@
  }
 
 .header {
-  margin-bottom: 32px;
+  margin-bottom: 60px;
+  border: dashed 1px red;
  }
 
 .main {
@@ -174,7 +175,7 @@
  }
 
 .main__button {
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
  }
 
 #menu__toggle {
@@ -182,13 +183,12 @@
  }
 
 .menu__btn {
-  display: inline-block;
   display: flex;
   position: relative;
   justify-content: space-between;
-  text-align: right;
+  align-items: right;
   top: 50%;
-  margin-top: -0.625em;
+  margin-top: -1.7em;
   margin-left: 260px;
   width: 32px;
   height: 32px;
@@ -282,9 +282,9 @@
  }
 }
 
-@media (max-width: 1366px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .wrapper {
-    width: 95%;
+    width: 90%;
   }
 
   .menu__item {
@@ -314,7 +314,48 @@
 
   .main__button {
     font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .menu__item {
+    font-size: 14px;
+    font-weight: 500;
     line-height: 16px;
+    text-align: left;
+  }
+
+  .main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: left;
+  }
+
+  .main {
+    background-size: 50%;
+  }
+
+  .main__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+  }
+
+  .main__button {
+    font-size: 14px;
+    line-height: 17px;
     text-align: left;
   }
 
