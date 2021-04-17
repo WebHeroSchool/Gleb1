@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 142px;
+  margin-bottom: 139px;
 }
 
 .wrapper {
@@ -24,9 +24,8 @@
 
 .logo {
   position: relative;
-  padding: 24px 0;
-  padding-left: 44px;
-  font: 700 24px/32px 'PT Serif', arial, helvetica, sans-serif;
+  padding: 24px 41px;
+  font: 700 24px/32px 'PT_Serif', arial, helvetica, sans-serif;
 }
 
 .menu {
@@ -118,15 +117,12 @@
 }
 
 .main__title {
-  margin-bottom: 16px;
-  font: bold 66px/87px 'Pt serif', arial, helvetica, sans-serif;
-  letter-spacing: 1px;
-  word-spacing: 2px;
+  margin-bottom: 19px;
+  font: bold 66px/87px 'PT_Serif', arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
   font: 22px/26px 'Roboto', arial, helvetica, sans-serif;
-  margin-right: 30%;
 }
 
 .main__button {
@@ -146,7 +142,7 @@
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(transparent 20%, #ecf3ff 0);
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 @media (max-width: 768px) {
@@ -184,21 +180,21 @@
   }
 
   .main__title {
-    margin: 32px 2px 33.3px 8px;
+    margin: 32px 2px 36px 8px;
     font: bold 30px/39px serif, arial, helvetica, sans-serif;
-    word-spacing: 1px;
-    letter-spacing: 1.4px;
+    word-spacing: -1px;
+    letter-spacing: 1.7px;
   }
 
   .main__subtitle {
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
-    margin: 0 0 25.5px 6px;
+    margin: 0 0 26.2px 6px;
  }
 
  .main__button {
    font-size: 14px;
    line-height: 17px;
-   padding: 13.2px 20.7px;
+   padding: 13.1px 20.8px;
    margin-left: 6px;
  }
 
@@ -319,7 +315,7 @@
     font-weight: 700;
     line-height: 65px;
     margin-bottom: 42px;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.3px;
   }
 
   .main {
@@ -341,7 +337,8 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
-    margin-left: -1.9px
+    margin-left: -1.9px;
+    padding-right: 30%;
   }
 
   .main__button {
@@ -351,7 +348,7 @@
   }
 
   .header {
-     margin-bottom: 45px;
+     margin-bottom: 47px;
   }
 }
 
@@ -376,7 +373,6 @@
     font-weight: 700;
     line-height: 65px;
     margin-bottom: 42px;
-    letter-spacing: 0.9px;
   }
 
   .main {
@@ -431,8 +427,12 @@
 
 @media (max-width: 2000px) and (min-width: 1500px) {
   .main__subtitle {
-    word-spacing: -0.8px;
+    word-spacing: -0.5px;
     padding: 18px 27.8px;
-    margin: 0 30% 22px -32px;
+    margin: 0 18% 25px -32px;
+  }
+
+  .main__title {
+    letter-spacing: -0.3px;
   }
 }
