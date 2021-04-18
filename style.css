@@ -172,6 +172,10 @@
     margin: 0 0 67px 0;
   }
 
+  .content__stick {
+    display: none;
+  }
+
   .main__title {
     margin: 32px 2px 31px 8px;
     font: bold 30px/40px serif, arial, helvetica, sans-serif;
@@ -571,5 +575,34 @@
 
   .main {
     margin: 21px;
+  }
+}
+
+.content__stick {
+  width: 60px;
+  height: 25px;
+  background-color: #0056EC;
+  margin: 0 0 0 0;
+  position: relative;
+  border-radius: 30%;
+  animation: stick 3s cubic-bezier(0.18, 0.05, 0.65, 0.32) infinite alternate 0s forwards;
+}
+
+@keyframes stick {
+  0% {
+    left: 0;
+  }
+  40% {
+    width: 300px;
+    height: 40px;
+  }
+  50% {
+    border-radius: 0;
+  }
+  60% {
+    background-color: #C8DBFB;
+  }
+  100% {
+    left: 100%;
   }
 }
