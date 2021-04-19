@@ -133,7 +133,7 @@
   background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
-@media (max-width: 2000px) and (min-width: 1500px) {
+@media (max-width: 10000px) and (min-width: 1650px) {
   .main__subtitle {
     word-spacing: -0.5px;
     padding: 18px 27.8px;
@@ -161,13 +161,13 @@
   }
 }
 
-@media (min-width: 1367px) and (max-width: 1500px) {
+@media (min-width: 1499px) and (max-width: 1649px) {
   .wrapper {
     width: 85%;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1367px) {
+@media (min-width: 1025px) and (max-width: 1500px) {
   .wrapper {
     width: 69%;
   }
