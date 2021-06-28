@@ -442,7 +442,7 @@
     position: relative;
     justify-content: space-between;
     align-self: flex-end;
-    margin-left: 293px;
+    margin-left: 100%;
     width: 32px;
     height: 32px;
     cursor: pointer;
