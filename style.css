@@ -561,32 +561,3 @@
     margin: 0 4px 45px 45px;
   }
 }
-
-.animate__stick {
-  width: 60px;
-  height: 25px;
-  background-color: #0056EC;
-  margin: 0 0 0 0;
-  position: relative;
-  border-radius: 30%;
-  animation: stick 3s cubic-bezier(0.18, 0.05, 0.65, 0.32) infinite alternate 0s forwards;
-}
-
-@keyframes stick {
-  0% {
-    left: 0;
-  }
-  40% {
-    width: 300px;
-    height: 40px;
-  }
-  50% {
-    border-radius: 3%;
-  }
-  60% {
-    background-color: #C8DBFB;
-  }
-  100% {
-    left: 100%;
-  }
-}
